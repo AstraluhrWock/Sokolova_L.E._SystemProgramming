@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-public class PlayerCharacter : CharacterNetcode
+public class PlayerCharacterNetcode : CharacterNetcode
 {
     [SerializeField] [Range(0, 100)] private int health = 100;
     [SerializeField] [Range(0.5f, 10.0f)] private float movingSpeed = 8.0f;
